@@ -1,0 +1,357 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Tony Termine
+Updated: March 2014
+Notes:   main.css for google-clone project
+
+*/
+
+/* --------------------------------------
+	Layout
+	-------------------------------------- */
+
+	.mainContainer{
+		position: relative;
+		height: 84.9%;
+		width: 100%;
+		min-width: 980px;
+		padding-bottom: 35px;
+	}
+
+	header {
+		width: 95.9%;
+		min-width: 298px;
+		margin: 0 auto;
+		height: 60px;
+		line-height: 58px;
+		text-align: right;
+	}
+
+	.body {
+		min-height: 100%;
+		max-width: 100%;
+		min-width: 980px;
+		display: block;
+	}
+
+	footer {
+		display: block;
+		max-width: 100%;
+		min-width: 980px;
+		line-height: 39px;
+		border-top: 1px solid #e4e4e4;
+		background: #f2f2f2;
+		overflow: hidden;
+	}
+
+/* --------------------------------------
+	Header Elements
+	-------------------------------------- */
+
+	.topNav {
+		display: inline-block;
+		text-align: right;
+		vertical-align: middle;
+		margin: 0;
+	}
+
+	.topNav li {
+		text-decoration: none;
+		display: inline-block;
+		padding-left: 11px;
+	}
+
+	.topNav li a {
+		text-decoration: none;
+		color: #404040;
+		font-size: 13px;
+	}
+
+	.gridImg {
+		display: inline-block;
+		vertical-align: middle;
+		text-align: right;
+		height: 22.49px;
+		width: 22px;
+		padding-left: 15px;
+		cursor: default;
+	}
+
+	.navButton {
+		display: inline-block;
+		line-height: 28px;
+		padding: 0 12px;
+		border-radius: 2px;
+		font-family: Arial,sans-serif;
+		font-size: 13px;
+		font-weight: bold;
+		color: #fff;
+		border: 1px solid #4285f4;
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#4387fd), to(#4683ea));
+		background: -webkit-linear-gradient(#4387fd, #4683ea);
+		background: -moz-linear-gradient(#4387fd, #4683ea);
+		background: -o-linear-gradient(#4387fd, #4683ea);
+		background: linear-gradient(#4387fd, #4683ea);
+		margin-left: 15px;
+		text-decoration: none;
+		cursor: default;
+		vertical-align: middle;
+	}
+
+	.topNav a:hover {
+		text-decoration: underline;
+		color: #000;
+	}
+
+	.gridImg a:hover {
+		color: #000;
+	}
+
+	.navButton:hover {
+		-webkit-box-shadow: 0 1px 0  rgba(0,0,0,.15);
+		-moz-box-shadow: 0 1px 0  rgba(0,0,0,.15);
+		box-shadow: 0 1px 0  rgba(0,0,0,.15);
+	}
+
+/* --------------------------------------
+	Body Elements
+	-------------------------------------- */
+
+	.logoBox {
+		width: 100%;
+		height: 231px;
+		margin-top: 20px;
+
+	}
+
+	.mainLogo {
+		display: block;
+		margin: 0 auto;
+		width: 269px;
+		height: 95px;
+		padding-top: 112px;
+	}
+
+	.mainButtonsBox {
+		display: block;
+		height: 102px;
+	}
+
+	.searchBar {
+		display: block;
+		text-align: center;
+
+	}
+
+	input[type="text"] {
+		width: 555px;
+		font-size: 16px;
+		font-family: Arial,sans-serif;
+		color: #222;
+		border: 1px solid #cdcdcd;
+		padding: .5px 6px;
+		margin: -0.0625em 0 -0.05em 0;
+		height: 27px;
+		background: url("../images/microphone.png") right no-repeat;
+		background-size: 23px 23px;
+		vertical-align: middle;
+	}
+
+	.mainButtons {
+		display: block;
+		text-align: center;
+		margin-top: 0.02em;
+		margin-right: 0.05em;
+	}
+
+	.searchButton,
+	.luckyButton {
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizelegibility;
+	}
+
+	.searchButton {
+		border: 1px solid #dcdcdc;
+		color: #222;
+		font-size: 11px;
+		font-weight: bold;
+		height: 29px;
+		line-height: 29px;
+		padding: 0 8px;
+		border-radius: 2px;
+		min-width: 54px;
+		cursor: default;
+		box-shadow: none;
+		margin: 16px 8px;
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#f1f1f1));
+		background: -webkit-linear-gradient(#f8f8f8, #f1f1f1);
+		background: -moz-linear-gradient(#f8f8f8, #f1f1f1);
+		background: -o-linear-gradient(#f8f8f8, #f1f1f1);
+		background: linear-gradient(#f8f8f8, #f1f1f1);
+	}
+
+	.luckyButton {
+		border: 1px solid #dcdcdc;
+		color: #222;
+		font-size: 11px;
+		font-weight: bold;
+		height: 29px;
+		line-height: 29px;
+		padding: 0 8px;
+		border-radius: 2px;
+		min-width: 54px;
+		cursor: default;
+		box-shadow: none;
+		margin: 16px 4px;
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#f1f1f1));
+		background: -webkit-linear-gradient(#f8f8f8, #f1f1f1);
+		background: -moz-linear-gradient(#f8f8f8, #f1f1f1);
+		background: -o-linear-gradient(#f8f8f8, #f1f1f1);
+		background: linear-gradient(#f8f8f8, #f1f1f1);
+	}
+
+	.cake, img {
+		display: block;
+		margin: 0 auto;
+		width: 70px;
+		height: 70px;
+	}
+
+	.cake {
+		margin-top: 20px;
+	}
+
+	input[type="text"]:active,
+	input[type="text"]:focus {
+		border-color: #4285f4;
+		border-top-color: rgb(66, 133, 244);
+		border-right-color: rgb(66, 133, 244);
+		border-bottom-color: rgb(66, 133, 244);
+		border-left-color: rgb(66, 133, 244);
+		outline: none;
+	}
+
+	input[type="text"]:hover {
+		border: 1px solid #a9a9a9;
+	}
+
+	.searchButton:hover {
+		-webkit-box-shadow: 0 1px 0  rgba(0,0,0,.15);
+		-moz-box-shadow: 0 1px 0  rgba(0,0,0,.15);
+		box-shadow: 0 1px 0  rgba(0,0,0,.15);
+		border: 1px solid #c6c6c6;
+	}
+
+	.luckyButton:hover {
+		-webkit-box-shadow: 0 1px 0  rgba(0,0,0,.15);
+		-moz-box-shadow: 0 1px 0  rgba(0,0,0,.15);
+		box-shadow: 0 1px 0  rgba(0,0,0,.15);
+		border: 1px solid #c6c6c6;
+	}
+
+	.searchButton:focus {
+		border: 1px solid #4d90fe;
+		outline: none;
+	}
+
+	.luckyButton:focus {
+		border: 1px solid #4d90fe;
+		outline: none;
+	}
+
+/* --------------------------------------
+	Footer Elements
+	-------------------------------------- */
+
+	.footerContainer {
+		width: 95.9%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.left {
+		text-align: left;
+		display: block;
+		width: 47.5%;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	.left li {
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.left li a {
+		text-decoration: none;
+		color: #666;
+		font-size: 13px;
+	}
+
+	.right {
+		display: block;
+		width: 47.5%;
+		float: right;
+		text-align: right;
+		padding: 0;
+		margin: 0;
+	}
+
+	.right li {
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.right li a {
+		text-decoration: none;
+		color: #666;
+		font-size: 13px;
+	}
+
+	.left li:nth-child(2) {
+		padding-left: 27px;
+	}
+
+	.left li:nth-child(3) {
+		padding-left: 27px;
+	}
+
+	.right li:nth-child(2) {
+		padding-left: 27px;
+	}
+
+	.left a:hover,
+	.right a:hover {
+		text-decoration: underline;
+	}
+
+/* --------------------------------------
+	Global Styles
+	-------------------------------------- */
+	html,body {
+		height: 100%;
+		margin: 0;
+	}
+
+/* --------------------------------------
+	Media Queries
+	-------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
