@@ -155,7 +155,6 @@ Notes:   main.css for google-clone project
 		padding: .5px 6px;
 		margin: -0.0625em 0 -0.05em 0;
 		height: 27px;
-		background: url("../images/microphone.png") right no-repeat;
 		background-size: 23px 23px;
 		vertical-align: middle;
 	}
@@ -336,22 +335,3 @@ Notes:   main.css for google-clone project
 		height: 100%;
 		margin: 0;
 	}
-
-/* --------------------------------------
-	Media Queries
-	-------------------------------------- */
-
-/* Portrait & landscape phone */
-@media (max-width: 480px) {
-
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-
-}
-
-/* Large desktop */
-@media (min-width: 1200px) {
-
-}
